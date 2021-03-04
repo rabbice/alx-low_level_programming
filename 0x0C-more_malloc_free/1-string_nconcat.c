@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * string_noncat - concatenate two strings
+ * string_nconcat - concatenate two strings
  * @s1: first string to copy
  * @s2: second string to copy
  * @n: no of bytes of s2 to copy
@@ -38,5 +38,5 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	for (k = 0; k < j; k++)
 		s[k + i] = s2[k];
 	s[i + j] = '\0';
-	return (s); 
+	return (s);
 }
