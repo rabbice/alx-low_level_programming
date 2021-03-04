@@ -8,7 +8,6 @@
  *
  * Return: pointer to newly allocated memory or NULL if fails
  */
-
 int *array_range(int min, int max)
 {
 	int i, j;
@@ -17,10 +16,10 @@ int *array_range(int min, int max)
 	if (min > max)
 		return (NULL);
 	j = max - min + 1;
-        a = malloc(sizeof(int) * j);
+	a = malloc(sizeof(int) * j);
 	if (a == NULL)
 		return (NULL);
-	for (i = 0; i < j; i++; min++)
+	for (i = 0; i < j; i++, min++)
 	{
 		a[i] = min;
 	}
