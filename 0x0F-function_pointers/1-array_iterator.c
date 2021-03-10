@@ -5,7 +5,7 @@
  * @array: array to exec func on
  * @size: size of the array
  * @action: pointer to the function to use
- * 
+ *
  * Return: void
  */
 
